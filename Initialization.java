@@ -1,0 +1,25 @@
+package array;
+
+public class Initialization {
+	public static void main(String args[]) {
+	int[] marks =new int[10];
+	marks[0] = 50;
+
+		int[] marks1 = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+        for(int i = 0; i<marks1.length;i++) {
+		marks1[i] = marks1[i]*10;
+		printArray(marks1);
+	}
+	}
+       public static void printArray(int[] array) {
+    	   for(int i = 0; i<array.length ;i++) {
+           	System.out.println("the element at "+ i + " has a value of "+ array[i]);
+           }
+       
+}
+
+	
+	
+	
+	
+}
